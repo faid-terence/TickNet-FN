@@ -1,9 +1,9 @@
 :root {
-    --primaryColor: #339657;
-    --cardColor: #FFFFFF;
-    --sectionContainer: #EFEFEF;
-    --subButtonColor: #000000;
-    --sectionSecondaryColor:#1F1F1F;
-    --textpara: #656565;
-    --headerColor:#000000;
+  --primaryColor: #339657;
+  --cardColor: #ffffff;
+  --sectionContainer: #efefef;
+  --subButtonColor: #000000;
+  --sectionSecondaryColor: #1f1f1f;
+  --textpara: #656565;
+  --headerColor: #000000;
 }
