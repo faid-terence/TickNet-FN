@@ -1,5 +1,24 @@
 import React from "react";
 
+const navLinks = [
+  {
+    path: "/home",
+    display: "Home",
+  },
+  {
+    path: "/events",
+    display: "Events",
+  },
+  {
+    path: "/tickets",
+    display: "Tickets",
+  },
+  {
+    path: "/contact",
+    display: "Contact",
+  },
+];
+
 export const Header = () => {
   return (
     <div style={{ width: "100%", height: "100%", position: "relative" }}>
