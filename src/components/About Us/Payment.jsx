@@ -1,6 +1,6 @@
 import React from "react";
 import paymentImage from "../../assets/images/mobilemoney.png";
-import "./Card.css";
+import "./Payment.css";
 
 const PaymentOptions = () => {
   return (
@@ -9,9 +9,12 @@ const PaymentOptions = () => {
       <Card />
       <div className="title">Easy Payment Options For Everyone</div>
       <div className="description">
-        With TickNet, the payment process is seamless, secure, and
-        user-friendly, because we prioritize your convenience and safety above
-        anything else.
+        <p>
+          {" "}
+          With TickNet, the payment process is seamless, secure, and
+          user-friendly, because we prioritize your convenience and safety above
+          anything else.
+        </p>
       </div>
       <div className="cta-button">
         <div className="cta-text">TRY OUT NOW</div>

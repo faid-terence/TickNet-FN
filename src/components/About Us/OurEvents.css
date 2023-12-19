@@ -1,9 +1,8 @@
-/* PaymentOptions.css */
-.payment-container {
+.event-container {
   width: 100%;
   height: 100%;
   position: relative;
-  top: 1300px;
+  top: 2600px;
 }
 
 .background {
@@ -16,7 +15,7 @@
   border-radius: 20px;
 }
 
-.card {
+.event-card {
   width: 579.3px;
   height: 444px;
   left: 190px;
@@ -25,7 +24,7 @@
   border-radius: 19px;
 }
 
-.card-image {
+.event-image {
   width: 100%;
   height: 100%;
   border-radius: 19px;
