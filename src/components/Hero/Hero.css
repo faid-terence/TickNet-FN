@@ -1,6 +1,4 @@
-/* Hero.css */
 
-/* Hero Container */
 .hero-container {
     max-width: 100%;
     height: 100%;
@@ -9,7 +7,6 @@
     left: 0;
   }
   
-  /* Explore Now Button */
   .explore-button {
     width: 291px;
     height: 88.44px;
