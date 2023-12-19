@@ -1,0 +1,80 @@
+.support-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 1950px;
+}
+
+.supp-background {
+  width: 716.17px;
+  height: 572px;
+  right: 120px;
+  top: 0;
+  position: absolute;
+  background: #f4f4f4;
+  border-radius: 20px;
+}
+
+.supp-card {
+  width: 579.3px;
+  height: 444px;
+  left: 1145px;
+  top: 85px;
+  position: absolute;
+  border-radius: 19px;
+}
+
+.supp-card-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 19px;
+}
+
+.support-title {
+  width: 607.95px;
+  height: 118px;
+  left: 190px;
+  top: 77px;
+  position: absolute;
+  color: black;
+  font-size: 36px;
+  font-family: "Fraunces";
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.support-description {
+  width: 480.63px;
+  height: 197px;
+  left: 190px;
+  top: 253px;
+  position: absolute;
+  color: #656565;
+  font-size: 24px;
+  font-family: "Fraunces";
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.supp-btn {
+  width: 209.02px;
+  height: 57px;
+  padding: 10px;
+  left: 230px;
+  top: 450px;
+  position: absolute;
+  background: #339657;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.supp-btn-text {
+  color: #efefef;
+  font-size: 20px;
+  font-family: "Fraunces";
+  font-weight: 700;
+  word-wrap: break-word;
+}

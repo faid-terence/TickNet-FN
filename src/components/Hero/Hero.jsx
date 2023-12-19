@@ -1,4 +1,3 @@
-// Hero.js
 import React from "react";
 import HeroImage from "../../assets/images/event 1.png";
 import "./Hero.css";
