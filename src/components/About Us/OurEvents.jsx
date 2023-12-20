@@ -1,5 +1,5 @@
 import React from "react";
-import eventImage from "../../assets/images/mobilemoney.png";
+import eventImage from "../../assets/images/Perfomance.jpg";
 import "./OurEvents.css";
 
 export const OurEvents = () => {
