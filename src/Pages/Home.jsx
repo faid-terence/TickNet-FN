@@ -5,6 +5,7 @@ import PaymentOptions from "../components/About Us/Payment";
 import { Support } from "../components/support/Support";
 import { OurEvents } from "../components/About Us/OurEvents";
 import { OurServices } from "../components/Our Services/OurServices";
+import { SubscribeForm } from "../components/Subscribe/SubscribeForm";
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
       <Support />
       <OurEvents />
       <OurServices />
+      <SubscribeForm/>
     </>
   );
 };
