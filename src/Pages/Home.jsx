@@ -6,6 +6,7 @@ import { Support } from "../components/support/Support";
 import { OurEvents } from "../components/About Us/OurEvents";
 import { OurServices } from "../components/Our Services/OurServices";
 import { SubscribeForm } from "../components/Subscribe/SubscribeForm";
+import { Footer } from "../components/Footer/Footer";
 
 export const Home = () => {
   return (
@@ -17,6 +18,7 @@ export const Home = () => {
       <OurEvents />
       <OurServices />
       <SubscribeForm/>
+      <Footer/>
     </>
   );
 };
