@@ -1,0 +1,72 @@
+/* OurServices.css */
+
+.services-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 3300px;
+}
+
+.pre-sale-container {
+  width: 372px;
+  height: 224px;
+  left: 186px;
+  top: 242px;
+  position: absolute;
+}
+
+.pre-sale-background {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: #efefef;
+}
+
+.pre-sale-content {
+  width: 372px;
+  height: 224px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: white;
+  border-radius: 20px;
+}
+
+.pre-sale-title {
+  width: 120px;
+  height: 28px;
+  left: 27px;
+  top: 72px;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-family: "Fraunces";
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.pre-sale-description {
+  width: 325px;
+  height: 38px;
+  left: 27px;
+  top: 148px;
+  position: absolute;
+  color: #656565;
+  font-size: 20px;
+  font-family: "Fraunces";
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.pre-sale-icon {
+  width: 24px;
+  height: 30.36px;
+  left: 27px;
+  top: 25px;
+  position: absolute;
+  background: #339657;
+}
+
+/* Add similar styles for other sections */
