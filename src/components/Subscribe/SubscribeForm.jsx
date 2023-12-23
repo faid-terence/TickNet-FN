@@ -7,14 +7,14 @@ export const SubscribeForm = () => {
         width: "100%",
         height: "100%",
         position: "relative",
-        top: "4090px",
+        top: "80px",
       }}
     >
       <div
         style={{
-          width: 1445,
+          width: 1745,
           height: 407,
-          left: 180,
+          left: 110,
           top: 0,
           position: "absolute",
           background: "#339657",

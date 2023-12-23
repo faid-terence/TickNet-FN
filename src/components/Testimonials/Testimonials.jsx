@@ -9,16 +9,35 @@ export const Testimonials = () => {
   return (
     <section className="testimonials">
       <div className="container">
-        <Swiper spaceBetween={50} slidesPerView={3} loop={true}>
-          <div className="section-header">
-            <h2 className="title">What our clients say</h2>
-          </div>
-
+        <div className="section-header"></div>
+        <Swiper
+          loop={true}
+          direction="horizontal"
+          grabCursor={true}
+          spaceBetween={50}
+          pagination={{
+            el: ".swiper-pagination",
+            clickable: true,
+          }}
+          breakpoints={{
+            767: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          }}
+          navigation={{
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          }}
+          scrollbar={{
+            el: ".swiper-scrollbar",
+          }}
+        >
           <div className="testimonial-content">
-            <div className="swiper js-testimonial-slider">
-              <div className="swiper-wrapper">
+            <div className="js-testimonial-slider">
+              <div className="">
                 <SwiperSlide>
-                  <div className="swiper-slide testimonnials-item">
+                  <div className=" testimonnials-item">
                     <div className="info">
                       <img src={clientImage} alt="" />
                       <div className="text-box">
@@ -41,7 +60,7 @@ export const Testimonials = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="swiper-slide testimonnials-item">
+                  <div className="testimonnials-item">
                     <div className="info">
                       <img src={clientImage} alt="" />
                       <div className="text-box">
@@ -62,7 +81,7 @@ export const Testimonials = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="swiper-slide testimonnials-item">
+                  <div className="testimonnials-item">
                     <div className="info">
                       <img src={clientImage} alt="" />
                       <div className="text-box">
@@ -85,7 +104,7 @@ export const Testimonials = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="swiper-slide testimonnials-item">
+                  <div className="testimonnials-item">
                     <div className="info">
                       <img src={clientImage} alt="" />
                       <div className="text-box">
@@ -107,7 +126,7 @@ export const Testimonials = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="swiper-slide testimonnials-item">
+                  <div className="testimonnials-item">
                     <div className="info">
                       <img src={clientImage} alt="" />
                       <div className="text-box">
