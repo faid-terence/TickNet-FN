@@ -28,7 +28,7 @@ export const OurServices = () => {
       />
       <div
         style={{
-          width: 372,
+          width: "50%",
           height: 224,
           left: 186,
           top: 242,
@@ -37,7 +37,7 @@ export const OurServices = () => {
       >
         <div
           style={{
-            width: 372,
+            width: "50%",
             height: 224,
             left: 0,
             top: 0,
@@ -93,16 +93,16 @@ export const OurServices = () => {
       </div>
       <div
         style={{
-          width: 372,
+          width: "50%",
           height: 224,
-          left: 628,
+          left: 728,
           top: 242,
           position: "absolute",
         }}
       >
         <div
           style={{
-            width: 372,
+            width: "50%",
             height: 224,
             left: 0,
             top: 0,
@@ -150,6 +150,7 @@ export const OurServices = () => {
             left: 25,
             top: 29,
             position: "absolute",
+            // background: "#339657",
           }}
         >
           <img src={heartIcon} alt="" />
@@ -157,16 +158,16 @@ export const OurServices = () => {
       </div>
       <div
         style={{
-          width: 372,
+          width: "50%",
           height: 224,
-          left: 1102,
+          left: 1272,
           top: 242,
           position: "absolute",
         }}
       >
         <div
           style={{
-            width: 372,
+            width: "50%",
             height: 224,
             left: 0,
             top: 0,
@@ -222,7 +223,7 @@ export const OurServices = () => {
       </div>
       <div
         style={{
-          width: 372,
+          width: "50%",
           height: 224,
           left: 189,
           top: 539,
@@ -231,7 +232,7 @@ export const OurServices = () => {
       >
         <div
           style={{
-            width: 372,
+            width: "50%",
             height: 224,
             left: -13,
             top: 0,
@@ -287,16 +288,16 @@ export const OurServices = () => {
       </div>
       <div
         style={{
-          width: 372,
+          width: "50%",
           height: 224,
-          left: 1100,
+          left: 1272,
           top: 539,
           position: "absolute",
         }}
       >
         <div
           style={{
-            width: 372,
+            width: "50%",
             height: 224,
             left: 0,
             top: 0,
@@ -352,16 +353,16 @@ export const OurServices = () => {
       </div>
       <div
         style={{
-          width: 372,
+          width: "50%",
           height: 224,
-          left: 631,
+          left: 728,
           top: 539,
           position: "absolute",
         }}
       >
         <div
           style={{
-            width: 372,
+            width: "50%",
             height: 224,
             left: 0,
             top: 0,
@@ -415,6 +416,38 @@ export const OurServices = () => {
         >
           <img src={moneyIcon} alt="" />
         </div>
+      </div>
+      <div
+        style={{
+          width: 770,
+          height: 77,
+          left: 672,
+          top: 144,
+          position: "absolute",
+          color: "#656565",
+          fontSize: 24,
+          fontFamily: "Fraunces",
+          fontWeight: "400",
+          wordWrap: "break-word",
+        }}
+      >
+        We provide personalized services for every user's unique preference.
+      </div>
+      <div
+        style={{
+          width: 580,
+          height: 68,
+          left: 737,
+          top: 67,
+          position: "absolute",
+          color: "black",
+          fontSize: 36,
+          fontFamily: "Fraunces",
+          fontWeight: "700",
+          wordWrap: "break-word",
+        }}
+      >
+        Our Range of Amazing Services
       </div>
     </div>
   );
