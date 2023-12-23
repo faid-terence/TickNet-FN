@@ -10,7 +10,7 @@ export const Footer = () => {
         width: "100%",
         height: "100%",
         position: "relative",
-        top: "4560px",
+        top: "600px",
       }}
     >
       <div
