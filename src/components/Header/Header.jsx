@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 const navLinks = [
@@ -29,11 +30,13 @@ export const Header = () => {
       </div>
       <div className="green-header" />
       <div className="logo">TickNet</div>
-      {navLinks.map((link, index) => (
-        <div key={index} className={`nav-link ${link.path.substr(1)}`}>
-          {link.display}
-        </div>
-      ))}
+      <div className="nav-links">
+        {navLinks.map((link, index) => (
+          <NavLink key={index} to={link.path} className={`nav-link ${link.path.substr(1)}`}>
+            {link.display}
+          </NavLink>
+        ))}
+      </div>
       <div className="login-button">
         <div className="login-button-text">LOGIN</div>
       </div>
